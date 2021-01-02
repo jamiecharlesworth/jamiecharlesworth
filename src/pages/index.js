@@ -1,4 +1,5 @@
 import * as React from "react"
+import Header from '../components/Header'
 
 // styles
 const pageStyles = {
@@ -101,6 +102,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <Header />
       <h1 style={headingStyles}>
         Congratulations
         <br />
